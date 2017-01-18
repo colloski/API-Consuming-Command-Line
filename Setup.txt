@@ -1,1 +1,11 @@
+Install pip, a package management library for Python.
 
+Install python-twitter, a Python wrapper around the Twitter API that makes accessing the API breathtakingly simple (really!).
+
+Start Python
+
+Create an instance of the Twitter API class, which creates an object with several methods that we’re going to be using. Think of it like buying a Swiss Army knife. You get the knife and a whole bunch of tools that go with it. You just have to unfold them to use them.
+
+Pick a Twitter user to gather their tweets. For this example, we’ll use Stephen Colbert (@StephenAtHome). Then we’ll use one of our tools in the Twitter API class – GetUserTimeline, which does what you think it does.
+
+Congrats. You now have Stephen Colbert’s latest tweets. Stand in appreciation of what all the python-twitter library has done for you. It created an http request, sent that request to the properly formatted API URL, ingested the response, converted the structured JSON file it returned into a Python dictionary and returned it to you as an object for you to use. What’s that? You’re not excited? You want to see them? Okay, fine.
